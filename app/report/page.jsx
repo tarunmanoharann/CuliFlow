@@ -12,7 +12,7 @@ export default function page(){
   return(
     <>
     <Sidebar/>
-    <Notifications/>
+    <Reports/>
     </>
   )
 }
@@ -59,12 +59,11 @@ export function Sidebar(){
   )
 }
 
-
-export function Notifications() {
-    return (
-      <div className="p-8">
-        <h1 className="text-2xl font-bold mb-4">Notifications</h1>
-        <p>This is the Notifications page. Add your notifications content here.</p>
+export const Reports = () => {
+  return (
+    <div className="p-8">
+        <h1 className="text-2xl font-bold mb-4">Reports</h1>
+        <p>This is the Notifications page. Add your reporta content here.</p>
       </div>
-    );
-  }
+  )
+}

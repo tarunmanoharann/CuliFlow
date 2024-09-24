@@ -1,12 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
-import { FaArrowUp, FaArrowDown } from 'react-icons/fa';
 import { LayoutDashboard, FileText, Bell, LogOut } from 'lucide-react';
-import { LineChart, Line, PieChart, Pie, ResponsiveContainer, XAxis, YAxis, Tooltip, Legend, Cell } from 'recharts';
+
 
 export default function page(){
   return(

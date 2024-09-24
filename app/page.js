@@ -89,7 +89,7 @@ export default function Login() {
                     type="text"
                     required
                     className="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
-                    placeholder="Username"
+                    placeholder="username: user"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                   />
@@ -104,7 +104,7 @@ export default function Login() {
                     type="password"
                     required
                     className="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
-                    placeholder="Password"
+                    placeholder="pwd: 123456"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />

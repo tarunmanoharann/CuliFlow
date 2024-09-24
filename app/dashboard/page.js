@@ -44,6 +44,7 @@ export default function page() {
   );
 }
 export function Sidebar() {
+  const router = useRouter();
   const handleLogout = () => {
     localStorage.removeItem("isLoggedIn");
     router.push("/");
@@ -84,7 +85,7 @@ export function Sidebar() {
           >
             <div className="flex items-center">
               <div>
-                <LogOut className="inline-block h-9 w-9 rounded-full" />
+                <LogOut className="inline-block h-6 w-6 rounded-full" />
               </div>
               <div className="ml-3">
                 <p className="text-base font-medium text-gray-700 group-hover:text-gray-900">
@@ -101,7 +102,6 @@ export function Sidebar() {
 
 export function Dashboard() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -207,7 +207,7 @@ export function Dashboard() {
               </div>
 
               {/* Analytics Section */}
-              <div id="analytics-section" className="mb-8">
+              <div id="analytics-section" className="mb-8 mt-28">
                 <h2 className="text-2xl font-semibold mb-4">Analytics</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   {/* Line Chart */}

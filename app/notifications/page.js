@@ -58,7 +58,7 @@ export function Sidebar() {
           >
             <div className="flex items-center">
               <div>
-                <LogOut className="inline-block h-9 w-9 rounded-full" />
+                <LogOut className="inline-block h-6 w-6 rounded-full" />
               </div>
               <div className="ml-3">
                 <p className="text-base font-medium text-gray-700 group-hover:text-gray-900">

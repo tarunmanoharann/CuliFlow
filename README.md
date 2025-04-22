@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Powered Sales Prediction and Optimization Dashboard for Restaurants
 
-## Getting Started
+## Overview
+This project is an **AI-Powered Sales Prediction and Optimization Dashboard** designed to assist restaurant owners in predicting item-level sales for the next three months. By integrating key external factors such as holidays, weather, and local trends, the dashboard provides insights essential for informed decision-making, optimized inventory management, and efficient resource allocation.
 
-First, run the development server:
+## Features
+1. **Sales Data Integration**: Users can upload historical sales data to refine predictions and enhance accuracy.
+2. **Impact Analysis Model**: Evaluates the influence of holidays, weather, and local events on sales trends, providing seasonal insights.
+3. **Predictive Sales Modeling**: Uses advanced algorithms to forecast item-wise sales based on historical data and external factors.
+4. **Performance Scorecard**: Offers daily, weekly, and monthly reports, with detailed accuracy metrics to support ongoing improvements.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Frontend**: React + Vite
+- **Backend**: Python with Gradio for interactive elements
+- **Database**: MySQL
+- **Sentiment Analysis**: NLTK VADER for analyzing review sentiments
+- **Data Visualization**: Recharts for graphing and insights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Future Updates
+- **Two-Factor Authentication (2FA)**: Adding an extra layer of security.
+- **End-to-End Encryption**: Securing all data communications.
+- **Review Survey**: Collecting and analyzing customer feedback to further enhance the predictive models.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
+├── frontend │ ├── src │ │ ├── components │ │ ├── pages │ │ └── assets │ └── public ├── backend │ ├── demanda.py (Sales Prediction Model) │ ├── analysis │ │ └── sentiment_analysis.py (Sentiment Analysis with VADER) │ └── database │ └── db_setup.sql (Database setup and schema) └── README.md
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Installation and Setup
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Prerequisites
+- Node.js and npm (for frontend)
+- Python 3.x (for backend)
+- MySQL (for database)

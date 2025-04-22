@@ -1,36 +1,58 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pipenv/
 
-# testing
-/coverage
+# Flask cache files
+instance/
+*.pyo
+*.pyc
+*.pyd
 
-# next.js
-/.next/
-/out/
+# VS Code workspace settings
+.vscode/
 
-# production
-/build
+# PyCharm project files
+.idea/
 
-# misc
+# MacOS system files
 .DS_Store
-*.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Environment variables
+*.env
+.env.*
 
-# local env files
-.env*.local
+# Pytest cache
+.pytest_cache/
 
-# vercel
-.vercel
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+*.pid
+
+# Local SQLite database
+*.sqlite3
+*.db
+
+# Static and Media files (optional, unless generated on the fly)
+static/
+media/
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/

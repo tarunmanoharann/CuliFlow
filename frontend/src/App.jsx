@@ -4,7 +4,7 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import Dashboard from "./Pages/Dashboard";
 import DemandForecast from "./Pages/DemandForecast";
 import Inventory from "./Pages/Inventory";
-import Landing from "./pages/Landing";
+import Landing from "./Pages/Landing";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Reports from "./Pages/Reports";

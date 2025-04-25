@@ -5,8 +5,8 @@ import Dashboard from "./Pages/Dashboard";
 import DemandForecast from "./Pages/DemandForecast";
 import Inventory from "./Pages/Inventory";
 import Landing from "./Pages/Landing";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 import Reports from "./Pages/Reports";
 import ScoreCard from "./Pages/ScoreCard";
 
